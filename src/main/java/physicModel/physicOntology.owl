@@ -1,0 +1,782 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/administrator/ontologies/2017/3/untitled-ontology-4"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/administrator/ontologies/2017/3/untitled-ontology-4">
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Declaration>
+        <Class IRI="#伏安法测电阻"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#光"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#分子"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#力"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#功"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#匀速直线运动"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#压强"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#原子"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#变速直线运动"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#固态（固体）"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#声（声音）"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#探究串联电路中各处电流的关系"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#探究串联电路中用电器两端的电压与电源两端电压的关系"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#探究二力平衡的条件"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#探究同种物质的质量和体积的关系"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#探究并联电路中干路电流与各支路电流的关系"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#探究并联电路各支路用电器两端的电压与电源两端电压的关系"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#探究影响压力作用效果的因素"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#探究浮力大小和排开液体所受重力的关系"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#探究浮力的大小和哪些因素有关"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#探究物体的动能跟哪些因素有关"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#探究电流与电压的关系"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#探究电流与电阻的关系"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#晶体"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#机械能"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#机械运动"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#气态（气体）"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#测量滑动摩檫力"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#测量物体运动的平均速度"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#测量盐水和小石块的密度"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#液态（液体）"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#物理仪器"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#物理实验"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#物理概念"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#物质"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#物质的构成"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#物质的状态"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#用刻度尺测量长度"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#用天平测量固体和液体的质量"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#用温度计测量水的温度"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#电"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#研究定滑轮和动滑轮的特点"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#研究影响滑动摩擦力大小的因素"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#研究液体内部的压强"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#研究滑轮组的机械效率"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#磁"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#练习使用滑动变阻器"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#练习使用电流表"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#能量"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#运动"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#连接串联电路和并联电路"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#非晶体"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#凝华"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#凝固"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#凝固点"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#前导知识点"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#升华"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#后续知识点"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#实验仪器"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#密度"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#汽化"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#沸点"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#测量工具"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#涉及知识点"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#液化"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#温度"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#熔化"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#熔点"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#物态变化"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#相关实验"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#相关知识点"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#质量"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#使用方法"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#力学单位"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#单位"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#名称"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#定义"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#实验步骤"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#用途"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#电学单位"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#能量单位"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#长度单位"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#伏安法测电阻"/>
+        <Class IRI="#物理实验"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#光"/>
+        <Class IRI="#物理概念"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#分子"/>
+        <Class IRI="#物质的构成"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#力"/>
+        <Class IRI="#物理概念"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#功"/>
+        <Class IRI="#物理概念"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#匀速直线运动"/>
+        <Class IRI="#运动"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#压强"/>
+        <Class IRI="#物理概念"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#原子"/>
+        <Class IRI="#物质的构成"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#变速直线运动"/>
+        <Class IRI="#运动"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#固态（固体）"/>
+        <Class IRI="#物质的状态"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#声（声音）"/>
+        <Class IRI="#物理概念"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#探究串联电路中各处电流的关系"/>
+        <Class IRI="#物理实验"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#探究串联电路中用电器两端的电压与电源两端电压的关系"/>
+        <Class IRI="#物理实验"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#探究二力平衡的条件"/>
+        <Class IRI="#物理实验"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#探究同种物质的质量和体积的关系"/>
+        <Class IRI="#物理实验"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#探究并联电路中干路电流与各支路电流的关系"/>
+        <Class IRI="#物理实验"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#探究并联电路各支路用电器两端的电压与电源两端电压的关系"/>
+        <Class IRI="#物理实验"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#探究影响压力作用效果的因素"/>
+        <Class IRI="#物理实验"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#探究浮力大小和排开液体所受重力的关系"/>
+        <Class IRI="#物理实验"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#探究浮力的大小和哪些因素有关"/>
+        <Class IRI="#物理实验"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#探究物体的动能跟哪些因素有关"/>
+        <Class IRI="#物理实验"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#探究电流与电压的关系"/>
+        <Class IRI="#物理实验"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#探究电流与电阻的关系"/>
+        <Class IRI="#物理实验"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#晶体"/>
+        <Class IRI="#固态（固体）"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#机械能"/>
+        <Class IRI="#物理概念"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#机械运动"/>
+        <Class IRI="#运动"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#气态（气体）"/>
+        <Class IRI="#物质的状态"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#测量滑动摩檫力"/>
+        <Class IRI="#物理实验"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#测量物体运动的平均速度"/>
+        <Class IRI="#物理实验"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#测量盐水和小石块的密度"/>
+        <Class IRI="#物理实验"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#液态（液体）"/>
+        <Class IRI="#物质的状态"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#物质"/>
+        <Class IRI="#物理概念"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#物质的构成"/>
+        <Class IRI="#物质"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#物质的状态"/>
+        <Class IRI="#物质"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#用刻度尺测量长度"/>
+        <Class IRI="#物理实验"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#用天平测量固体和液体的质量"/>
+        <Class IRI="#物理实验"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#用温度计测量水的温度"/>
+        <Class IRI="#物理实验"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#电"/>
+        <Class IRI="#物理概念"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#研究定滑轮和动滑轮的特点"/>
+        <Class IRI="#物理实验"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#研究影响滑动摩擦力大小的因素"/>
+        <Class IRI="#物理实验"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#研究液体内部的压强"/>
+        <Class IRI="#物理实验"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#研究滑轮组的机械效率"/>
+        <Class IRI="#物理实验"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#磁"/>
+        <Class IRI="#物理概念"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#练习使用滑动变阻器"/>
+        <Class IRI="#物理实验"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#练习使用电流表"/>
+        <Class IRI="#物理实验"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#能量"/>
+        <Class IRI="#物理概念"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#运动"/>
+        <Class IRI="#物理概念"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#连接串联电路和并联电路"/>
+        <Class IRI="#物理实验"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#非晶体"/>
+        <Class IRI="#固态（固体）"/>
+    </SubClassOf>
+    <EquivalentObjectProperties>
+        <ObjectProperty IRI="#实验仪器"/>
+        <ObjectProperty IRI="#测量工具"/>
+    </EquivalentObjectProperties>
+    <EquivalentObjectProperties>
+        <ObjectProperty IRI="#涉及知识点"/>
+        <ObjectProperty IRI="#相关知识点"/>
+    </EquivalentObjectProperties>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#凝华"/>
+        <ObjectProperty IRI="#物态变化"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#凝固"/>
+        <ObjectProperty IRI="#物态变化"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#凝固点"/>
+        <ObjectProperty IRI="#温度"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#升华"/>
+        <ObjectProperty IRI="#物态变化"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#汽化"/>
+        <ObjectProperty IRI="#物态变化"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#沸点"/>
+        <ObjectProperty IRI="#温度"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#测量工具"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#液化"/>
+        <ObjectProperty IRI="#物态变化"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#熔化"/>
+        <ObjectProperty IRI="#物态变化"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#熔点"/>
+        <ObjectProperty IRI="#温度"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#凝华"/>
+        <ObjectProperty IRI="#升华"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#凝固"/>
+        <ObjectProperty IRI="#熔化"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#后续知识点"/>
+        <ObjectProperty IRI="#前导知识点"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#汽化"/>
+        <ObjectProperty IRI="#液化"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#凝华"/>
+        <Class IRI="#气态（气体）"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#凝固"/>
+        <Class IRI="#液态（液体）"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#凝固点"/>
+        <Class IRI="#液态（液体）"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#前导知识点"/>
+        <Class IRI="#物理实验"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#前导知识点"/>
+        <Class IRI="#物理概念"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#升华"/>
+        <Class IRI="#固态（固体）"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#后续知识点"/>
+        <Class IRI="#物理仪器"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#后续知识点"/>
+        <Class IRI="#物理概念"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#实验仪器"/>
+        <Class IRI="#物理实验"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#密度"/>
+        <Class IRI="#物质"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#汽化"/>
+        <Class IRI="#液态（液体）"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#沸点"/>
+        <Class IRI="#液态（液体）"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#测量工具"/>
+        <Class IRI="#物理概念"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#液化"/>
+        <Class IRI="#气态（气体）"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#温度"/>
+        <Class IRI="#物质"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#熔化"/>
+        <Class IRI="#固态（固体）"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#熔点"/>
+        <Class IRI="#晶体"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#相关实验"/>
+        <Class IRI="#物理仪器"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#相关实验"/>
+        <Class IRI="#物理概念"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#相关知识点"/>
+        <Class IRI="#物理实验"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#相关知识点"/>
+        <Class IRI="#物理概念"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#质量"/>
+        <Class IRI="#物质"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#凝华"/>
+        <Class IRI="#固态（固体）"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#凝固"/>
+        <Class IRI="#固态（固体）"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#前导知识点"/>
+        <Class IRI="#物理仪器"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#前导知识点"/>
+        <Class IRI="#物理概念"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#升华"/>
+        <Class IRI="#气态（气体）"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#实验仪器"/>
+        <Class IRI="#物理仪器"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#汽化"/>
+        <Class IRI="#气态（气体）"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#测量工具"/>
+        <Class IRI="#物理仪器"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#液化"/>
+        <Class IRI="#液态（液体）"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#熔化"/>
+        <Class IRI="#液态（液体）"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#相关实验"/>
+        <Class IRI="#物理实验"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#相关知识点"/>
+        <Class IRI="#物理仪器"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#相关知识点"/>
+        <Class IRI="#物理概念"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#力学单位"/>
+        <DataProperty IRI="#单位"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#电学单位"/>
+        <DataProperty IRI="#单位"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#能量单位"/>
+        <DataProperty IRI="#单位"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#长度单位"/>
+        <DataProperty IRI="#单位"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#使用方法"/>
+        <Class IRI="#物理仪器"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#单位"/>
+        <Class IRI="#物理概念"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#名称"/>
+        <Class IRI="#物理仪器"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#名称"/>
+        <Class IRI="#物理实验"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#名称"/>
+        <Class IRI="#物理概念"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#定义"/>
+        <Class IRI="#物理概念"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#实验步骤"/>
+        <Class IRI="#物理实验"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#用途"/>
+        <Class IRI="#物理仪器"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#使用方法"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#名称"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#定义"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#实验步骤"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#用途"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#凝华</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">气体变成固体的过程</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#凝固</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">液体变成固体的过程</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#升华</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">固体变成气体的过程</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#名称</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">物理概念的名称</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#汽化</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">液体变成气体的过程</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#液化</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">气体变成液体的过程</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#熔化</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">固体变成液体的过程</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>owl:Thing</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">初中物理本体</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
+

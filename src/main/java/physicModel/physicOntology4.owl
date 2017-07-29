@@ -1,0 +1,3319 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/administrator/ontologies/2017/3/untitled-ontology-4"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/administrator/ontologies/2017/3/untitled-ontology-4">
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Declaration>
+        <Class IRI="#单位类"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#图片类"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#学习视频类"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#实验仪器类"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#实验类"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#文档类"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#标签类"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#标量"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#物理概念"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#物理规律"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#矢量"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#具体内容"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#包含知识点"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#单位"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#后续知识点"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#学习视频"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#学习资源"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#实验仪器"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#标签"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#相关知识点"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#计算方法和相关公式"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#预备知识点"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#使用方法"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#内容"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#单位符号"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#名称"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#备注"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#实验步骤"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#方向"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#简介"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#一节干电池电压"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#万有引力"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#三线插头"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#串联"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#串联电路"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#串联电路的电压规律"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#串联电路的电流规律"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#乐音"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#二力平衡"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#二力平衡的条件"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#云强电场"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#介质"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#仪器"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#伏安法测电阻"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#伏特"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#伏特每米"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#会聚透镜"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#位移"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#体温计"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#体积"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#停表"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#像"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#光"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#光学"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#光心"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#光源"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#光滑轨道"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#光的传播速度"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#光的反射"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#光的反射定律"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#光的折射"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#光的折射定律"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#光的直线传播"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#光的色散"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#光线"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#光路可逆"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#光路的可逆性"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#冰水混合物温度"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#冰的熔点"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#凝华"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#凝固"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#凝固点"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#凸透镜"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#凸透镜成像的规律"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#凸面镜"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#凹透镜"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#凹面镜"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#分子"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#分子动理论"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#分子的热运动"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#分子间的作用力"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#分贝"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#刻度尺"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#力"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#力的三要素"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#力的作用效果"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#力的示意图"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#功"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#功率"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#功率表"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#加速度"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#动滑轮"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#动能"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#动能定理"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#势能"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#匀变速直线运动"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#匀变速直线运动基本规律"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#匀强磁场"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#匀速圆周运动"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#匀速直线运动"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#匀速直线运动基本规律"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#化学能"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#千克"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#千克每立方米"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#千瓦时"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#升华"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#半导体"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#单位"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#单摆"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#压力"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#压力和压强"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#压强"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#原子"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#原子核式结构"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#参照物"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#发光强度"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#发散透镜"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#发电机"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#变速直线运动"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#变阻器"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#右手定则"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#响度"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#噪声"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#固体"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#固体压强"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#固态"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#圆周运动"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#地热能"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#地磁场"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#场"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#场强"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#声"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#声学"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#声波"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#声现象"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#声速"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#声音"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#大气压"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#大气压强"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#天平"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#太阳能"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#学生电源"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#安培"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#安培定则"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#定滑轮"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#实像"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#家庭电路"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#密度"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#导体"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#小孔成像"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#小桌"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#左手定则"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#帕"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#帕斯卡"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#干涉"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#平动"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#平均速度"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#平抛运动"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#平抛运动的运动规律"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#平方米"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#平行四边形定则"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#平衡"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#平面镜"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#平面镜成像"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#平面镜成像规律"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#平面镜成虚像"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#并联"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#并联电路"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#并联电路的电压规律"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#并联电路的电流规律"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#库伦"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#库伦定律"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#度"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#引力"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#弹力"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#弹力势能"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#弹簧振子"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#弹簧测力计"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#微波"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#总功"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#惯性"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#惯性定律"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#我国电网交流电频率"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#扩散"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#扬声器"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#投影仪"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#折射率"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#振动"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#振幅"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#探头"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#探究串联电路中各处电流的关系"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#探究串联电路中用电器两端的电压与电源两端电压的关系"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#探究二力平衡的条件"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#探究什么情况下磁可以生电"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#探究光反射时的规律"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#探究光折射时的特点"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#探究凸透镜成像的规律"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#探究同种物质的质量和体积的关系"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#探究固体融化时温度的变化规律"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#探究平面镜成像的特点"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#探究并联电路中干路电流与各支路电流的关系"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#探究并联电路各支路用电器两端的电压与电源两端电压的关系"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#探究影响压力作用效果的因素"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#探究影响导体电阻大小的因素"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#探究杠杆的平衡条件"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#探究水沸腾时温度变化的特点"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#探究浮力大小和排开液体所受重力的关系"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#探究浮力的大小和哪些因素有关"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#探究物体的动能跟哪些因素有关"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#探究电流与电压的关系"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#探究电流与电阻的关系"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#探究通电螺线管外部的磁场分布"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#探究重力的大小跟质量的关系"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#摄氏度"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#摄氏温度"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#摩擦力"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#摩擦起电"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#放大镜"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#斥力"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#断路"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#无线电波"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#时刻"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#时间"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#显微镜"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#晶体"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#曲线运动"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#有用功"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#望远镜"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#木板"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#机械和功"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#机械振动"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#机械效率"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#机械能"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#机械能及其转化"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#机械能守恒定律"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#机械运动"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#杠杆"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#杠杆原理"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#杠杆的平衡条件"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#标准大气压下水的沸点"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#核能"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#次声波"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#欧"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#欧姆"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#欧姆定律"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#欧姆定律在串联电路中的应用"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#欧姆定律在并联电路中的应用"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#正电荷"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#比热容"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#比较不同物质吸热的情况"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#气体"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#气体的压强"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#气压"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#气压计"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#气态"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#气筒"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#氢原子能级"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#水能"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#汽化"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#汽油机"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#汽车安全带"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#沸腾"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#波速"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#波长"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#流体压强"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#流体压强与流速的关系"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#流速"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#测量小灯泡的电功率"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#测量滑动摩擦力"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#测量滑动摩檫力"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#测量滑轮组的机械效率"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#测量物体运动的平均速度"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#测量盐水和小石块的密度"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#浮力"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#浮力大小"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#液体"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#液体压强"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#液化"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#液态"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#温度"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#温度计"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#游标卡尺"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#滑动变阻器"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#滑动摩擦力"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#滑轮"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#滑轮组"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#漏电保护器"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#漫反射"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#火线"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#点光源"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#点电荷"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#烧杯"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#热与能"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#热传递"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#热值"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#热力学温度"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#热机的效率"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#热量"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#焦"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#焦每千克"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#焦每千克摄氏度"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#焦点"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#焦耳"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#焦耳定律"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#焦距"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#煤"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#照相机"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#熔化"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#熔点"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#燃料的热值"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#牛"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#牛每千克"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#牛每库伦"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#牛米"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#牛顿"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#牛顿第一定律"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#牛顿第三定律"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#牛顿第二定律"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#物体的内能"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#物体的振动"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#物体的浮沉条件"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#物态变化"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#物理支架"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#物质"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#理想变压器"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#理想气体"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#瓦"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#瓦特"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#用刻度尺测量长度"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#用天平测量固体和液体的质量"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#用温度计测量水的温度"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#电"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#电功"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#电功率"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#电动机"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#电势"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#电压"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#电压表"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#电场"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#电场强度"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#电场线"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#电子"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#电容"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#电池"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#电流"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#电流强度"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#电流的热效应"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#电流的磁效应"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#电流表"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#电磁感应"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#电磁感应现象"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#电磁波"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#电磁继电器"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#电磁铁"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#电磁铁磁性强弱"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#电能"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#电能与磁"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#电能表"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#电荷"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#电荷守恒定律"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#电荷量"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#电表"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#电话机"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#电路"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#电路图"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#电阻"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#电阻定律"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#直线运动"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#看不见的光"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#瞬时速度"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#短路"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#石油"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#研究定滑轮和动滑轮的特点"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#研究影响滑动摩擦力大小的因素"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#研究液体内部的压强"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#研究滑轮组的机械效率"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#研究磁场的方向"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#砝码"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#磁化"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#磁场"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#磁感应强度"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#磁感线"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#磁极"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#磁极间相互作用的规律"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#磁现象"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#磁通量"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#秒"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#空气中的声速"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#立方米"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#竖直上抛运动"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#等势面"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#等压变化"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#等温变化"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#米"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#米每秒"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#紫外线"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#红外线"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#线圈"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#练习使用弹簧测力计"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#练习使用滑动变阻器"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#练习使用电压表"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#练习使用电流表"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#绝缘体"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#能"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#能源"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#能量守恒定律"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#蒸发"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#蓄电池"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#虚像"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#螺旋测微仪"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#螺线管"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#衍射"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#负电荷"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#质点"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#质量"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#赫"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#赫兹"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#超声波"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#超导现象"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#路程"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#转动"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#轻弹簧"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#轻杆"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#运动"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#运动和力"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#运动的独立性原理"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#连接串联电路和并联电路"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#连通器"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#透镜"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#通路"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#速度"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#部分电路的欧姆定律"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#酒精灯"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#重力"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#重力势能"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#重力和质量的比值"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#重心"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#量筒"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#镜面反射"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#长度"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#闭合电路的欧姆定律"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#阿基米德原理"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#零线"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#静摩擦力"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#非晶体"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#面积"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#音色"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#音调"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#频率"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#额外功"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#额定功率"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#额定电压"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#风能"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#飞机的升力"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#麦克斯韦电磁场理论"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#（15）摄氏度时空气中的声速"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#牛/库"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#名称"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#简介"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#标量"/>
+        <Class IRI="#物理概念"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#矢量"/>
+        <Class IRI="#物理概念"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#标量"/>
+        <Class IRI="#矢量"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#矢量"/>
+        <NamedIndividual IRI="#万有引力"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理概念"/>
+        <NamedIndividual IRI="#串联电路"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理规律"/>
+        <NamedIndividual IRI="#串联电路的电压规律"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理规律"/>
+        <NamedIndividual IRI="#串联电路的电流规律"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理概念"/>
+        <NamedIndividual IRI="#介质"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#标签类"/>
+        <NamedIndividual IRI="#仪器"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验类"/>
+        <NamedIndividual IRI="#伏安法测电阻"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#单位类"/>
+        <NamedIndividual IRI="#伏特"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#单位类"/>
+        <NamedIndividual IRI="#伏特每米"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#矢量"/>
+        <NamedIndividual IRI="#位移"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验仪器类"/>
+        <NamedIndividual IRI="#体温计"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#标量"/>
+        <NamedIndividual IRI="#体积"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验仪器类"/>
+        <NamedIndividual IRI="#停表"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#标签类"/>
+        <NamedIndividual IRI="#光学"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理概念"/>
+        <NamedIndividual IRI="#光滑轨道"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理规律"/>
+        <NamedIndividual IRI="#光的反射定律"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理规律"/>
+        <NamedIndividual IRI="#光的折射定律"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理概念"/>
+        <NamedIndividual IRI="#凝华"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理概念"/>
+        <NamedIndividual IRI="#凝固"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理规律"/>
+        <NamedIndividual IRI="#凸透镜成像的规律"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理概念"/>
+        <NamedIndividual IRI="#凹面镜"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理规律"/>
+        <NamedIndividual IRI="#分子动理论"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#单位类"/>
+        <NamedIndividual IRI="#分贝"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验仪器类"/>
+        <NamedIndividual IRI="#刻度尺"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#标量"/>
+        <NamedIndividual IRI="#功"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#标量"/>
+        <NamedIndividual IRI="#功率"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验仪器类"/>
+        <NamedIndividual IRI="#功率表"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#矢量"/>
+        <NamedIndividual IRI="#加速度"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理概念"/>
+        <NamedIndividual IRI="#动滑轮"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理规律"/>
+        <NamedIndividual IRI="#动能定理"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理概念"/>
+        <NamedIndividual IRI="#匀变速直线运动"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理规律"/>
+        <NamedIndividual IRI="#匀变速直线运动基本规律"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理概念"/>
+        <NamedIndividual IRI="#匀速圆周运动"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理概念"/>
+        <NamedIndividual IRI="#匀速直线运动"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理规律"/>
+        <NamedIndividual IRI="#匀速直线运动基本规律"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理概念"/>
+        <NamedIndividual IRI="#化学能"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#单位类"/>
+        <NamedIndividual IRI="#千克"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#单位类"/>
+        <NamedIndividual IRI="#千克每立方米"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#标量"/>
+        <NamedIndividual IRI="#千瓦时"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#标签类"/>
+        <NamedIndividual IRI="#单位"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理概念"/>
+        <NamedIndividual IRI="#单摆"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#矢量"/>
+        <NamedIndividual IRI="#压力"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#标签类"/>
+        <NamedIndividual IRI="#压力和压强"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#标量"/>
+        <NamedIndividual IRI="#压强"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理概念"/>
+        <NamedIndividual IRI="#参照物"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#标量"/>
+        <NamedIndividual IRI="#发光强度"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验仪器类"/>
+        <NamedIndividual IRI="#发散透镜"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验仪器类"/>
+        <NamedIndividual IRI="#发电机"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验仪器类"/>
+        <NamedIndividual IRI="#变阻器"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理规律"/>
+        <NamedIndividual IRI="#右手定则"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#标量"/>
+        <NamedIndividual IRI="#响度"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#标量"/>
+        <NamedIndividual IRI="#固体压强"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理概念"/>
+        <NamedIndividual IRI="#圆周运动"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理概念"/>
+        <NamedIndividual IRI="#地热能"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#矢量"/>
+        <NamedIndividual IRI="#场强"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#标签类"/>
+        <NamedIndividual IRI="#声学"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#矢量"/>
+        <NamedIndividual IRI="#声速"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验仪器类"/>
+        <NamedIndividual IRI="#天平"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理概念"/>
+        <NamedIndividual IRI="#太阳能"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验仪器类"/>
+        <NamedIndividual IRI="#学生电源"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#单位类"/>
+        <NamedIndividual IRI="#安培"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理规律"/>
+        <NamedIndividual IRI="#安培定则"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理概念"/>
+        <NamedIndividual IRI="#定滑轮"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理概念"/>
+        <NamedIndividual IRI="#家庭电路"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#标量"/>
+        <NamedIndividual IRI="#密度"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验仪器类"/>
+        <NamedIndividual IRI="#小桌"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理规律"/>
+        <NamedIndividual IRI="#左手定则"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#单位类"/>
+        <NamedIndividual IRI="#帕"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#单位类"/>
+        <NamedIndividual IRI="#帕斯卡"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理概念"/>
+        <NamedIndividual IRI="#平动"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#矢量"/>
+        <NamedIndividual IRI="#平均速度"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理概念"/>
+        <NamedIndividual IRI="#平抛运动"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理规律"/>
+        <NamedIndividual IRI="#平抛运动的运动规律"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#单位类"/>
+        <NamedIndividual IRI="#平方米"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理规律"/>
+        <NamedIndividual IRI="#平行四边形定则"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验仪器类"/>
+        <NamedIndividual IRI="#平面镜"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理规律"/>
+        <NamedIndividual IRI="#平面镜成像规律"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理规律"/>
+        <NamedIndividual IRI="#平面镜成虚像"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理概念"/>
+        <NamedIndividual IRI="#并联电路"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理规律"/>
+        <NamedIndividual IRI="#并联电路的电压规律"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理规律"/>
+        <NamedIndividual IRI="#并联电路的电流规律"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#单位类"/>
+        <NamedIndividual IRI="#库伦"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#单位类"/>
+        <NamedIndividual IRI="#度"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#矢量"/>
+        <NamedIndividual IRI="#弹力"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理概念"/>
+        <NamedIndividual IRI="#弹力势能"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理概念"/>
+        <NamedIndividual IRI="#弹簧振子"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验仪器类"/>
+        <NamedIndividual IRI="#弹簧测力计"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#标量"/>
+        <NamedIndividual IRI="#总功"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理规律"/>
+        <NamedIndividual IRI="#惯性定律"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验仪器类"/>
+        <NamedIndividual IRI="#扬声器"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验仪器类"/>
+        <NamedIndividual IRI="#投影仪"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#标量"/>
+        <NamedIndividual IRI="#振幅"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验仪器类"/>
+        <NamedIndividual IRI="#探头"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验类"/>
+        <NamedIndividual IRI="#探究串联电路中各处电流的关系"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验类"/>
+        <NamedIndividual IRI="#探究串联电路中用电器两端的电压与电源两端电压的关系"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验类"/>
+        <NamedIndividual IRI="#探究二力平衡的条件"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验类"/>
+        <NamedIndividual IRI="#探究什么情况下磁可以生电"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验类"/>
+        <NamedIndividual IRI="#探究光反射时的规律"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验类"/>
+        <NamedIndividual IRI="#探究光折射时的特点"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验类"/>
+        <NamedIndividual IRI="#探究凸透镜成像的规律"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验类"/>
+        <NamedIndividual IRI="#探究同种物质的质量和体积的关系"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验类"/>
+        <NamedIndividual IRI="#探究固体融化时温度的变化规律"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验类"/>
+        <NamedIndividual IRI="#探究平面镜成像的特点"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验类"/>
+        <NamedIndividual IRI="#探究并联电路中干路电流与各支路电流的关系"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验类"/>
+        <NamedIndividual IRI="#探究并联电路各支路用电器两端的电压与电源两端电压的关系"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验类"/>
+        <NamedIndividual IRI="#探究影响压力作用效果的因素"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验类"/>
+        <NamedIndividual IRI="#探究影响导体电阻大小的因素"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验类"/>
+        <NamedIndividual IRI="#探究杠杆的平衡条件"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验类"/>
+        <NamedIndividual IRI="#探究水沸腾时温度变化的特点"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验类"/>
+        <NamedIndividual IRI="#探究浮力大小和排开液体所受重力的关系"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验类"/>
+        <NamedIndividual IRI="#探究浮力的大小和哪些因素有关"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验类"/>
+        <NamedIndividual IRI="#探究物体的动能跟哪些因素有关"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验类"/>
+        <NamedIndividual IRI="#探究电流与电压的关系"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验类"/>
+        <NamedIndividual IRI="#探究电流与电阻的关系"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验类"/>
+        <NamedIndividual IRI="#探究通电螺线管外部的磁场分布"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验类"/>
+        <NamedIndividual IRI="#探究重力的大小跟质量的关系"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#单位类"/>
+        <NamedIndividual IRI="#摄氏度"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#标量"/>
+        <NamedIndividual IRI="#摄氏温度"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理概念"/>
+        <NamedIndividual IRI="#断路"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#标量"/>
+        <NamedIndividual IRI="#时刻"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#标量"/>
+        <NamedIndividual IRI="#时间"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验仪器类"/>
+        <NamedIndividual IRI="#显微镜"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理概念"/>
+        <NamedIndividual IRI="#晶体"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#标量"/>
+        <NamedIndividual IRI="#有用功"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验仪器类"/>
+        <NamedIndividual IRI="#望远镜"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验仪器类"/>
+        <NamedIndividual IRI="#木板"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#标签类"/>
+        <NamedIndividual IRI="#机械和功"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#标量"/>
+        <NamedIndividual IRI="#机械效率"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理规律"/>
+        <NamedIndividual IRI="#机械能守恒定律"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理概念"/>
+        <NamedIndividual IRI="#杠杆"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理规律"/>
+        <NamedIndividual IRI="#杠杆原理"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理规律"/>
+        <NamedIndividual IRI="#杠杆的平衡条件"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理概念"/>
+        <NamedIndividual IRI="#核能"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#单位类"/>
+        <NamedIndividual IRI="#欧"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#单位类"/>
+        <NamedIndividual IRI="#欧姆"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#标量"/>
+        <NamedIndividual IRI="#比热容"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验类"/>
+        <NamedIndividual IRI="#比较不同物质吸热的情况"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验仪器类"/>
+        <NamedIndividual IRI="#气压计"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验仪器类"/>
+        <NamedIndividual IRI="#气筒"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理概念"/>
+        <NamedIndividual IRI="#水能"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理概念"/>
+        <NamedIndividual IRI="#沸腾"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#矢量"/>
+        <NamedIndividual IRI="#波速"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#标量"/>
+        <NamedIndividual IRI="#波长"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验类"/>
+        <NamedIndividual IRI="#测量小灯泡的电功率"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验类"/>
+        <NamedIndividual IRI="#测量滑动摩擦力"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验类"/>
+        <NamedIndividual IRI="#测量滑动摩檫力"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验类"/>
+        <NamedIndividual IRI="#测量滑轮组的机械效率"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验类"/>
+        <NamedIndividual IRI="#测量物体运动的平均速度"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验类"/>
+        <NamedIndividual IRI="#测量盐水和小石块的密度"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#矢量"/>
+        <NamedIndividual IRI="#浮力大小"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#标量"/>
+        <NamedIndividual IRI="#温度"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验仪器类"/>
+        <NamedIndividual IRI="#温度计"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验仪器类"/>
+        <NamedIndividual IRI="#游标卡尺"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验仪器类"/>
+        <NamedIndividual IRI="#滑动变阻器"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#矢量"/>
+        <NamedIndividual IRI="#滑动摩擦力"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理概念"/>
+        <NamedIndividual IRI="#滑轮"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理概念"/>
+        <NamedIndividual IRI="#滑轮组"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理概念"/>
+        <NamedIndividual IRI="#点电荷"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验仪器类"/>
+        <NamedIndividual IRI="#烧杯"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#标签类"/>
+        <NamedIndividual IRI="#热与能"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#标量"/>
+        <NamedIndividual IRI="#热值"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#标量"/>
+        <NamedIndividual IRI="#热力学温度"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#标量"/>
+        <NamedIndividual IRI="#热量"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#单位类"/>
+        <NamedIndividual IRI="#焦"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#单位类"/>
+        <NamedIndividual IRI="#焦每千克"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#单位类"/>
+        <NamedIndividual IRI="#焦每千克摄氏度"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#单位类"/>
+        <NamedIndividual IRI="#焦耳"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理规律"/>
+        <NamedIndividual IRI="#焦耳定律"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理概念"/>
+        <NamedIndividual IRI="#熔化"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#标量"/>
+        <NamedIndividual IRI="#燃料的热值"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#单位类"/>
+        <NamedIndividual IRI="#牛"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#单位类"/>
+        <NamedIndividual IRI="#牛每千克"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#单位类"/>
+        <NamedIndividual IRI="#牛每库伦"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#单位类"/>
+        <NamedIndividual IRI="#牛米"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#单位类"/>
+        <NamedIndividual IRI="#牛顿"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理规律"/>
+        <NamedIndividual IRI="#牛顿第一定律"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理规律"/>
+        <NamedIndividual IRI="#牛顿第三定律"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理规律"/>
+        <NamedIndividual IRI="#牛顿第二定律"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#标量"/>
+        <NamedIndividual IRI="#物体的内能"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验仪器类"/>
+        <NamedIndividual IRI="#物理支架"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理概念"/>
+        <NamedIndividual IRI="#理想变压器"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理概念"/>
+        <NamedIndividual IRI="#理想气体"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#单位类"/>
+        <NamedIndividual IRI="#瓦"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#单位类"/>
+        <NamedIndividual IRI="#瓦特"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验类"/>
+        <NamedIndividual IRI="#用刻度尺测量长度"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验类"/>
+        <NamedIndividual IRI="#用天平测量固体和液体的质量"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验类"/>
+        <NamedIndividual IRI="#用温度计测量水的温度"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#标量"/>
+        <NamedIndividual IRI="#电功"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#标量"/>
+        <NamedIndividual IRI="#电功率"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#标量"/>
+        <NamedIndividual IRI="#电势"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#标量"/>
+        <NamedIndividual IRI="#电压"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验仪器类"/>
+        <NamedIndividual IRI="#电压表"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#矢量"/>
+        <NamedIndividual IRI="#电场强度"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理概念"/>
+        <NamedIndividual IRI="#电场线"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#标量"/>
+        <NamedIndividual IRI="#电容"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#矢量"/>
+        <NamedIndividual IRI="#电流"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#矢量"/>
+        <NamedIndividual IRI="#电流强度"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理规律"/>
+        <NamedIndividual IRI="#电流的热效应"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验仪器类"/>
+        <NamedIndividual IRI="#电流表"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理规律"/>
+        <NamedIndividual IRI="#电磁感应现象"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理概念"/>
+        <NamedIndividual IRI="#电磁波"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验仪器类"/>
+        <NamedIndividual IRI="#电磁继电器"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#标量"/>
+        <NamedIndividual IRI="#电磁铁磁性强弱"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#标量"/>
+        <NamedIndividual IRI="#电能"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#标签类"/>
+        <NamedIndividual IRI="#电能与磁"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验仪器类"/>
+        <NamedIndividual IRI="#电能表"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理规律"/>
+        <NamedIndividual IRI="#电荷守恒定律"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#标量"/>
+        <NamedIndividual IRI="#电荷量"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验仪器类"/>
+        <NamedIndividual IRI="#电表"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#标量"/>
+        <NamedIndividual IRI="#电阻"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理规律"/>
+        <NamedIndividual IRI="#电阻定律"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理概念"/>
+        <NamedIndividual IRI="#看不见的光"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#矢量"/>
+        <NamedIndividual IRI="#瞬时速度"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理概念"/>
+        <NamedIndividual IRI="#短路"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验类"/>
+        <NamedIndividual IRI="#研究定滑轮和动滑轮的特点"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验类"/>
+        <NamedIndividual IRI="#研究影响滑动摩擦力大小的因素"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验类"/>
+        <NamedIndividual IRI="#研究液体内部的压强"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验类"/>
+        <NamedIndividual IRI="#研究滑轮组的机械效率"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验类"/>
+        <NamedIndividual IRI="#研究磁场的方向"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验仪器类"/>
+        <NamedIndividual IRI="#砝码"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理概念"/>
+        <NamedIndividual IRI="#磁场"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#标量"/>
+        <NamedIndividual IRI="#磁感应强度"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理概念"/>
+        <NamedIndividual IRI="#磁感线"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理规律"/>
+        <NamedIndividual IRI="#磁极间相互作用的规律"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#标量"/>
+        <NamedIndividual IRI="#磁通量"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#单位类"/>
+        <NamedIndividual IRI="#秒"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#单位类"/>
+        <NamedIndividual IRI="#立方米"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理概念"/>
+        <NamedIndividual IRI="#等势面"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理概念"/>
+        <NamedIndividual IRI="#等温变化"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#单位类"/>
+        <NamedIndividual IRI="#米"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#单位类"/>
+        <NamedIndividual IRI="#米每秒"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验仪器类"/>
+        <NamedIndividual IRI="#线圈"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验类"/>
+        <NamedIndividual IRI="#练习使用弹簧测力计"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验类"/>
+        <NamedIndividual IRI="#练习使用滑动变阻器"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验类"/>
+        <NamedIndividual IRI="#练习使用电压表"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验类"/>
+        <NamedIndividual IRI="#练习使用电流表"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理规律"/>
+        <NamedIndividual IRI="#能量守恒定律"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验仪器类"/>
+        <NamedIndividual IRI="#蓄电池"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验仪器类"/>
+        <NamedIndividual IRI="#螺旋测微仪"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验仪器类"/>
+        <NamedIndividual IRI="#螺线管"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理概念"/>
+        <NamedIndividual IRI="#负电荷"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理概念"/>
+        <NamedIndividual IRI="#质点"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#标量"/>
+        <NamedIndividual IRI="#质量"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#标量"/>
+        <NamedIndividual IRI="#赫"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#单位类"/>
+        <NamedIndividual IRI="#赫兹"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#标量"/>
+        <NamedIndividual IRI="#路程"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理概念"/>
+        <NamedIndividual IRI="#轻杆"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#标签类"/>
+        <NamedIndividual IRI="#运动和力"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理规律"/>
+        <NamedIndividual IRI="#运动的独立性原理"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验类"/>
+        <NamedIndividual IRI="#连接串联电路和并联电路"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验仪器类"/>
+        <NamedIndividual IRI="#连通器"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理概念"/>
+        <NamedIndividual IRI="#通路"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#矢量"/>
+        <NamedIndividual IRI="#速度"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理规律"/>
+        <NamedIndividual IRI="#部分电路的欧姆定律"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验仪器类"/>
+        <NamedIndividual IRI="#酒精灯"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#矢量"/>
+        <NamedIndividual IRI="#重力"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理概念"/>
+        <NamedIndividual IRI="#重力势能"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理概念"/>
+        <NamedIndividual IRI="#重心"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#实验仪器类"/>
+        <NamedIndividual IRI="#量筒"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#标量"/>
+        <NamedIndividual IRI="#长度"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理规律"/>
+        <NamedIndividual IRI="#闭合电路的欧姆定律"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理规律"/>
+        <NamedIndividual IRI="#阿基米德原理"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#矢量"/>
+        <NamedIndividual IRI="#静摩擦力"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#标量"/>
+        <NamedIndividual IRI="#面积"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#标量"/>
+        <NamedIndividual IRI="#音色"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#标量"/>
+        <NamedIndividual IRI="#音调"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#标量"/>
+        <NamedIndividual IRI="#频率"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#标量"/>
+        <NamedIndividual IRI="#额外功"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#标量"/>
+        <NamedIndividual IRI="#额定功率"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#标量"/>
+        <NamedIndividual IRI="#额定电压"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理概念"/>
+        <NamedIndividual IRI="#风能"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#物理规律"/>
+        <NamedIndividual IRI="#麦克斯韦电磁场理论"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#单位类"/>
+        <NamedIndividual IRI="#牛/库"/>
+    </ClassAssertion>
+    <SameIndividual>
+        <NamedIndividual IRI="#伏特每米"/>
+        <NamedIndividual IRI="#牛每库伦"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#会聚透镜"/>
+        <NamedIndividual IRI="#凸透镜"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#凹透镜"/>
+        <NamedIndividual IRI="#发散透镜"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#千瓦时"/>
+        <NamedIndividual IRI="#电能"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#右手定则"/>
+        <NamedIndividual IRI="#安培定则"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#场强"/>
+        <NamedIndividual IRI="#电场强度"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#大气压"/>
+        <NamedIndividual IRI="#大气压强"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#大气压"/>
+        <NamedIndividual IRI="#气压"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#大气压强"/>
+        <NamedIndividual IRI="#气压"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#帕"/>
+        <NamedIndividual IRI="#帕斯卡"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#惯性定律"/>
+        <NamedIndividual IRI="#牛顿第一定律"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#杠杆原理"/>
+        <NamedIndividual IRI="#杠杆的平衡条件"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#欧"/>
+        <NamedIndividual IRI="#欧姆"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#焦"/>
+        <NamedIndividual IRI="#焦耳"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#牛"/>
+        <NamedIndividual IRI="#牛顿"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#瓦"/>
+        <NamedIndividual IRI="#瓦特"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#电能表"/>
+        <NamedIndividual IRI="#电表"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#线圈"/>
+        <NamedIndividual IRI="#螺线管"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#能"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#赫"/>
+        <NamedIndividual IRI="#赫兹"/>
+    </SameIndividual>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#导体"/>
+        <NamedIndividual IRI="#绝缘体"/>
+    </DifferentIndividuals>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#具体内容"/>
+        <NamedIndividual IRI="#万有引力"/>
+        <NamedIndividual IRI="#长度"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#单位"/>
+        <NamedIndividual IRI="#万有引力"/>
+        <NamedIndividual IRI="#牛顿"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#单位"/>
+        <NamedIndividual IRI="#万有引力"/>
+        <NamedIndividual IRI="#牛"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#后续知识点"/>
+        <NamedIndividual IRI="#万有引力"/>
+        <NamedIndividual IRI="#弹簧振子"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#学习视频"/>
+        <NamedIndividual IRI="#万有引力"/>
+        <NamedIndividual IRI="#面积"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#标签"/>
+        <NamedIndividual IRI="#万有引力"/>
+        <NamedIndividual IRI="#运动和力"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#相关知识点"/>
+        <NamedIndividual IRI="#万有引力"/>
+        <NamedIndividual IRI="#摩擦力"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#计算方法和相关公式"/>
+        <NamedIndividual IRI="#万有引力"/>
+        <NamedIndividual IRI="#气压计"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#预备知识点"/>
+        <NamedIndividual IRI="#万有引力"/>
+        <NamedIndividual IRI="#平抛运动的运动规律"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#具体内容"/>
+        <NamedIndividual IRI="#串联电路"/>
+        <NamedIndividual IRI="#磁化"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#后续知识点"/>
+        <NamedIndividual IRI="#串联电路"/>
+        <NamedIndividual IRI="#电流"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#后续知识点"/>
+        <NamedIndividual IRI="#串联电路"/>
+        <NamedIndividual IRI="#短路"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#学习视频"/>
+        <NamedIndividual IRI="#串联电路"/>
+        <NamedIndividual IRI="#磁感应强度"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#标签"/>
+        <NamedIndividual IRI="#串联电路"/>
+        <NamedIndividual IRI="#电场"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#相关知识点"/>
+        <NamedIndividual IRI="#串联电路"/>
+        <NamedIndividual IRI="#电子"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#预备知识点"/>
+        <NamedIndividual IRI="#串联电路"/>
+        <NamedIndividual IRI="#电动机"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#预备知识点"/>
+        <NamedIndividual IRI="#串联电路"/>
+        <NamedIndividual IRI="#串联电路"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#具体内容"/>
+        <NamedIndividual IRI="#串联电路的电压规律"/>
+        <NamedIndividual IRI="#连接串联电路和并联电路"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#后续知识点"/>
+        <NamedIndividual IRI="#串联电路的电压规律"/>
+        <NamedIndividual IRI="#电能"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#学习视频"/>
+        <NamedIndividual IRI="#串联电路的电压规律"/>
+        <NamedIndividual IRI="#面积"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#标签"/>
+        <NamedIndividual IRI="#串联电路的电压规律"/>
+        <NamedIndividual IRI="#电能"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#相关知识点"/>
+        <NamedIndividual IRI="#串联电路的电压规律"/>
+        <NamedIndividual IRI="#连接串联电路和并联电路"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#计算方法和相关公式"/>
+        <NamedIndividual IRI="#串联电路的电压规律"/>
+        <NamedIndividual IRI="#静摩擦力"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#预备知识点"/>
+        <NamedIndividual IRI="#串联电路的电压规律"/>
+        <NamedIndividual IRI="#电压"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#包含知识点"/>
+        <NamedIndividual IRI="#仪器"/>
+        <NamedIndividual IRI="#电流表"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#包含知识点"/>
+        <NamedIndividual IRI="#仪器"/>
+        <NamedIndividual IRI="#线圈"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#包含知识点"/>
+        <NamedIndividual IRI="#仪器"/>
+        <NamedIndividual IRI="#电表"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#包含知识点"/>
+        <NamedIndividual IRI="#仪器"/>
+        <NamedIndividual IRI="#砝码"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#包含知识点"/>
+        <NamedIndividual IRI="#仪器"/>
+        <NamedIndividual IRI="#螺旋测微仪"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#包含知识点"/>
+        <NamedIndividual IRI="#仪器"/>
+        <NamedIndividual IRI="#螺线管"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#包含知识点"/>
+        <NamedIndividual IRI="#仪器"/>
+        <NamedIndividual IRI="#电压表"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#实验仪器"/>
+        <NamedIndividual IRI="#伏安法测电阻"/>
+        <NamedIndividual IRI="#电压表"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#实验仪器"/>
+        <NamedIndividual IRI="#伏安法测电阻"/>
+        <NamedIndividual IRI="#变阻器"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#实验仪器"/>
+        <NamedIndividual IRI="#伏安法测电阻"/>
+        <NamedIndividual IRI="#电流表"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#预备知识点"/>
+        <NamedIndividual IRI="#伏安法测电阻"/>
+        <NamedIndividual IRI="#电阻"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#预备知识点"/>
+        <NamedIndividual IRI="#伏安法测电阻"/>
+        <NamedIndividual IRI="#电流"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#预备知识点"/>
+        <NamedIndividual IRI="#伏安法测电阻"/>
+        <NamedIndividual IRI="#电压"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#具体内容"/>
+        <NamedIndividual IRI="#体积"/>
+        <NamedIndividual IRI="#点光源"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#单位"/>
+        <NamedIndividual IRI="#体积"/>
+        <NamedIndividual IRI="#立方米"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#后续知识点"/>
+        <NamedIndividual IRI="#体积"/>
+        <NamedIndividual IRI="#煤"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#学习视频"/>
+        <NamedIndividual IRI="#体积"/>
+        <NamedIndividual IRI="#烧杯"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#标签"/>
+        <NamedIndividual IRI="#体积"/>
+        <NamedIndividual IRI="#风能"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#相关知识点"/>
+        <NamedIndividual IRI="#体积"/>
+        <NamedIndividual IRI="#电流"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#计算方法和相关公式"/>
+        <NamedIndividual IRI="#体积"/>
+        <NamedIndividual IRI="#磁化"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#预备知识点"/>
+        <NamedIndividual IRI="#体积"/>
+        <NamedIndividual IRI="#熔点"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#相关知识点"/>
+        <NamedIndividual IRI="#光的反射定律"/>
+        <NamedIndividual IRI="#光路的可逆性"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#预备知识点"/>
+        <NamedIndividual IRI="#动能"/>
+        <NamedIndividual IRI="#运动"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#预备知识点"/>
+        <NamedIndividual IRI="#匀速直线运动"/>
+        <NamedIndividual IRI="#速度"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#相关知识点"/>
+        <NamedIndividual IRI="#声波"/>
+        <NamedIndividual IRI="#介质"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#相关知识点"/>
+        <NamedIndividual IRI="#声音"/>
+        <NamedIndividual IRI="#音调"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#预备知识点"/>
+        <NamedIndividual IRI="#声音"/>
+        <NamedIndividual IRI="#振动"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#相关知识点"/>
+        <NamedIndividual IRI="#机械运动"/>
+        <NamedIndividual IRI="#参照物"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#实验仪器"/>
+        <NamedIndividual IRI="#测量滑动摩擦力"/>
+        <NamedIndividual IRI="#弹簧测力计"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#相关知识点"/>
+        <NamedIndividual IRI="#煤"/>
+        <NamedIndividual IRI="#电子"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#实验仪器"/>
+        <NamedIndividual IRI="#研究影响滑动摩擦力大小的因素"/>
+        <NamedIndividual IRI="#弹簧测力计"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#实验仪器"/>
+        <NamedIndividual IRI="#研究影响滑动摩擦力大小的因素"/>
+        <NamedIndividual IRI="#木板"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#实验仪器"/>
+        <NamedIndividual IRI="#研究影响滑动摩擦力大小的因素"/>
+        <NamedIndividual IRI="#砝码"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#预备知识点"/>
+        <NamedIndividual IRI="#速度"/>
+        <NamedIndividual IRI="#路程"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#名称"/>
+        <NamedIndividual IRI="#万有引力"/>
+        <Literal datatypeIRI="&xsd;string">矢量</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#备注"/>
+        <NamedIndividual IRI="#万有引力"/>
+        <Literal datatypeIRI="&xsd;string">矢量很难</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#方向"/>
+        <NamedIndividual IRI="#万有引力"/>
+        <Literal datatypeIRI="&xsd;string">指向地球的重心</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#简介"/>
+        <NamedIndividual IRI="#万有引力"/>
+        <Literal datatypeIRI="&xsd;string">矢量是一种物理量</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#名称"/>
+        <NamedIndividual IRI="#串联电路"/>
+        <Literal datatypeIRI="&xsd;string">串联电路</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#简介"/>
+        <NamedIndividual IRI="#串联电路"/>
+        <Literal datatypeIRI="&xsd;string">串联电路就是串联电路</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#名称"/>
+        <NamedIndividual IRI="#串联电路的电压规律"/>
+        <Literal datatypeIRI="&xsd;string">串联电路的电压规律</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#备注"/>
+        <NamedIndividual IRI="#串联电路的电压规律"/>
+        <Literal datatypeIRI="&xsd;string">串联电路的电压规律</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#简介"/>
+        <NamedIndividual IRI="#串联电路的电压规律"/>
+        <Literal datatypeIRI="&xsd;string">研究串联电路两边的电压变化</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#内容"/>
+        <NamedIndividual IRI="#二力平衡的条件"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">作用在同一个物体上的两个力，如果大小相等，方向相反，并且在同一条直线上，这两个力就彼此平衡</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#名称"/>
+        <NamedIndividual IRI="#仪器"/>
+        <Literal datatypeIRI="&xsd;string">仪器</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#备注"/>
+        <NamedIndividual IRI="#仪器"/>
+        <Literal datatypeIRI="&xsd;string">仪器又有很多种分类</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#简介"/>
+        <NamedIndividual IRI="#仪器"/>
+        <Literal datatypeIRI="&xsd;string">仪器标签包括所有的仪器</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#名称"/>
+        <NamedIndividual IRI="#伏安法测电阻"/>
+        <Literal datatypeIRI="&xsd;string">伏安法测电阻</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#备注"/>
+        <NamedIndividual IRI="#伏安法测电阻"/>
+        <Literal datatypeIRI="&xsd;string">没有</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#实验步骤"/>
+        <NamedIndividual IRI="#伏安法测电阻"/>
+        <Literal datatypeIRI="&xsd;string">1.
+2.
+3.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#简介"/>
+        <NamedIndividual IRI="#伏安法测电阻"/>
+        <Literal datatypeIRI="&xsd;string">是采用电压与电流的比值来测量电阻</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#单位符号"/>
+        <NamedIndividual IRI="#伏特"/>
+        <Literal datatypeIRI="&xsd;string">V</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#名称"/>
+        <NamedIndividual IRI="#伏特"/>
+        <Literal datatypeIRI="&xsd;string">伏特</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#备注"/>
+        <NamedIndividual IRI="#伏特"/>
+        <Literal datatypeIRI="&xsd;string"></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#简介"/>
+        <NamedIndividual IRI="#伏特"/>
+        <Literal datatypeIRI="&xsd;string">电压的常用单位</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#使用方法"/>
+        <NamedIndividual IRI="#体温计"/>
+        <Literal datatypeIRI="&xsd;string">自己上网查</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#名称"/>
+        <NamedIndividual IRI="#体温计"/>
+        <Literal datatypeIRI="&xsd;string">体温计</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#备注"/>
+        <NamedIndividual IRI="#体温计"/>
+        <Literal datatypeIRI="&xsd;string">没有</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#简介"/>
+        <NamedIndividual IRI="#体温计"/>
+        <Literal datatypeIRI="&xsd;string">常用来测量温度</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#名称"/>
+        <NamedIndividual IRI="#体积"/>
+        <Literal datatypeIRI="&xsd;string">体积</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#备注"/>
+        <NamedIndividual IRI="#体积"/>
+        <Literal datatypeIRI="&xsd;string">体积</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#简介"/>
+        <NamedIndividual IRI="#体积"/>
+        <Literal datatypeIRI="&xsd;string">是一种物理量</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#内容"/>
+        <NamedIndividual IRI="#力的三要素"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">力的大小、方向、作用点</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#内容"/>
+        <NamedIndividual IRI="#力的作用效果"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">改变物体的运动状态</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#内容"/>
+        <NamedIndividual IRI="#平面镜成像规律"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">平面镜所成的像与物体关于镜面对称</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#内容"/>
+        <NamedIndividual IRI="#杠杆原理"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">动力× 动力臂=阻力× 阻力臂</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#内容"/>
+        <NamedIndividual IRI="#欧姆定律"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">导体中的电流，跟导体两端的电压成正比，跟导体的电阻成反比</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#内容"/>
+        <NamedIndividual IRI="#流体压强与流速的关系"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">在气体和液体中，流速越大的位置，压强越小</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#内容"/>
+        <NamedIndividual IRI="#焦耳定律"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">电流通过导体产生的热量跟电流的二次方成正比，跟导体的电阻成正比，跟通电时间成反比</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#内容"/>
+        <NamedIndividual IRI="#牛顿第一定律"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">一切物体在没有受到力的作用时，总保持静止状态或匀速直线运动状态</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#方向"/>
+        <NamedIndividual IRI="#电流"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">正电荷定向移动的方向</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#内容"/>
+        <NamedIndividual IRI="#电流的热效应"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">电流通过导体时电能转化为内能</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#内容"/>
+        <NamedIndividual IRI="#电流的磁效应"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">通电导线周围存在与电流方向有关的磁场</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#实验步骤"/>
+        <NamedIndividual IRI="#研究影响滑动摩擦力大小的因素"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">1.用弹簧测力计匀速拉动木块，使他沿水平长木板滑动，从而测出木块与长木板之间的滑动摩擦力</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#实验步骤"/>
+        <NamedIndividual IRI="#研究影响滑动摩擦力大小的因素"/>
+        <Literal datatypeIRI="&xsd;decimal">2.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#实验步骤"/>
+        <NamedIndividual IRI="#研究影响滑动摩擦力大小的因素"/>
+        <Literal datatypeIRI="&xsd;decimal">3.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#内容"/>
+        <NamedIndividual IRI="#重力"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">物体所受重力跟它的质量成正比</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#方向"/>
+        <NamedIndividual IRI="#重力"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">竖直向下</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#内容"/>
+        <NamedIndividual IRI="#阿基米德原理"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">浸在液体中的物体受到向上的浮力，浮力的大小等于它所排开的液体所受的重力</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#计算方法和相关公式"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#预备知识点"/>
+        <ObjectProperty IRI="#后续知识点"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#具体内容"/>
+        <Class IRI="#物理概念"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#具体内容"/>
+        <Class IRI="#物理规律"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#包含知识点"/>
+        <Class IRI="#标签类"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#单位"/>
+        <Class IRI="#标量"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#单位"/>
+        <Class IRI="#矢量"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#后续知识点"/>
+        <Class IRI="#物理概念"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#后续知识点"/>
+        <Class IRI="#物理规律"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#学习资源"/>
+        <Class IRI="#实验仪器类"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#学习资源"/>
+        <Class IRI="#实验类"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#学习资源"/>
+        <Class IRI="#物理概念"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#学习资源"/>
+        <Class IRI="#物理规律"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#实验仪器"/>
+        <Class IRI="#实验类"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#标签"/>
+        <Class IRI="#单位类"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#标签"/>
+        <Class IRI="#实验仪器类"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#标签"/>
+        <Class IRI="#实验类"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#标签"/>
+        <Class IRI="#物理概念"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#标签"/>
+        <Class IRI="#物理规律"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#计算方法和相关公式"/>
+        <Class IRI="#标量"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#计算方法和相关公式"/>
+        <Class IRI="#矢量"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#预备知识点"/>
+        <Class IRI="#实验类"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#预备知识点"/>
+        <Class IRI="#物理概念"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#预备知识点"/>
+        <Class IRI="#物理规律"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#包含知识点"/>
+        <Class IRI="#物理概念"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#包含知识点"/>
+        <Class IRI="#物理规律"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#单位"/>
+        <Class IRI="#单位类"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#实验仪器"/>
+        <Class IRI="#实验仪器类"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#标签"/>
+        <Class IRI="#标签类"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#相关知识点"/>
+        <Class IRI="#物理概念"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#相关知识点"/>
+        <Class IRI="#物理规律"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#计算方法和相关公式"/>
+        <Class IRI="#图片类"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#预备知识点"/>
+        <Class IRI="#物理概念"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#预备知识点"/>
+        <Class IRI="#物理规律"/>
+    </ObjectPropertyRange>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#后续知识点"/>
+        <ObjectProperty IRI="#预备知识点"/>
+    </DisjointObjectProperties>
+    <DataPropertyDomain>
+        <DataProperty IRI="#使用方法"/>
+        <Class IRI="#实验仪器类"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#内容"/>
+        <Class IRI="#物理概念"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#内容"/>
+        <Class IRI="#物理规律"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#名称"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#备注"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#实验步骤"/>
+        <Class IRI="#实验类"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#方向"/>
+        <Class IRI="#矢量"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#简介"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#使用方法"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#内容"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#名称"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#备注"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#实验步骤"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#方向"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#简介"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#名称</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">物理概念的名称</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>owl:Thing</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">初中物理本体</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
+
